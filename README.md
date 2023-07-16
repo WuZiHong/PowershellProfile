@@ -21,7 +21,7 @@ So the steps will be:
    - Install-Module ZLocation -Scope CurrentUser
    - Install-Module posh-git -Scope CurrentUser
    - Install-Module git-aliases -Scope CurrentUser
-   - winget install JanDeDobbeleer.OhMyPosh -s winget
+   - **winget install JanDeDobbeleer.OhMyPosh -s winget**
    - Install-Module PSReadLine -Scope CurrentUser
 4. Create ps1 to C:\Users\{UserName}\Documents\Microsoft.PowerShell_profile.ps1
 5. Copy content to the file, save.
