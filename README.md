@@ -29,6 +29,7 @@ So the steps will be:
 
 And the powershell profile is changed as well:
 
+```
 # posh-git
 Import-Module posh-git
 # git-aliases
@@ -44,6 +45,6 @@ Set-PSReadLineOption -PredictionSource History
 # Advanced Autocompletion for arrow keys
 Set-PSReadlineKeyHandler -Key UpArrow -Function HistorySearchBackward
 Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
-
+```
 
 That's all!
