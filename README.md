@@ -37,6 +37,9 @@ Import-Module git-aliases -DisableNameChecking
 
 # init theme
 oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/zash.omp.json' | Invoke-Expression
+# or Run 'Get-PoshThemes'
+![image](https://github.com/WuZiHong/PowershellProfile/assets/21151832/1aa5c020-c566-4bfa-8f51-6c3d4a3a9614)
+# oh-my-posh init pwsh --config 'C:\Users\zihwu\AppData\Local\Programs\oh-my-posh\themes\zash.omp.json' | Invoke-Expression
 
 # PSReadLine
 Import-Module PSReadLine
