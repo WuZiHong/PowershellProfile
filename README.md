@@ -43,6 +43,7 @@ That's all!
 # Appendix
 
 ## Install Font to fix display issues
+Oh My Posh official doc: [Fonts|Oh My Posh](https://ohmyposh.dev/docs/installation/fonts)
 
 1. Find the `oh-my-posh.exe`, usually you can find the path in your environment variable `path`. Like 'C:\Users\zihwu\AppData\Local\Programs\oh-my-posh\bin'
 2. Run the Powershell as **administrator**.
