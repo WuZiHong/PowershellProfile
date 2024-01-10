@@ -40,6 +40,34 @@ Set-PSReadlineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 That's all!
 
+# Appendix
+
+## Install Font to fix display issues
+
+1. Find the `oh-my-posh.exe`, usually you can find the path in your environment variable `path`. Like 'C:\Users\zihwu\AppData\Local\Programs\oh-my-posh\bin'
+2. Run the Powershell as **administrator**.
+3. `cd` to the above bin folder, run `.\oh-my-posh.exe font install`
+4. Select 'Meslo' font, click Enter button. Wait for completion.
+![image](https://github.com/WuZiHong/PowershellProfile/assets/21151832/e45e134f-a555-4587-a6ba-12ddc6b07537)
+5. In terminal, just click `CTRL + SHIFT + ,`, it will open your `settings.json`. add and save the `font.face` attribute under the `defaults` attribute in profiles:
+```
+{
+    "profiles":
+    {
+        "defaults":
+        {
+            "font":
+            {
+                "face": "MesloLGM Nerd Font"
+            }
+        }
+    }
+}
+```
+![image](https://github.com/WuZiHong/PowershellProfile/assets/21151832/4b06a0cd-c3e3-49cd-9289-f36d9ff1fd78)
+
+6. Re-open your terminal, enjoy!
+
 **Deprecated**
 1. ~~Install Windows Terminal from Windows Store~~
 2. ~~Install Powershell from Github~~
