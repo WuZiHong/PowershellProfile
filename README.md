@@ -1,10 +1,8 @@
 Steps:
 
-
-
-**New**
 Due to oh-my-posh won't support powershell module, we need to use another way to download oh-my-posh. See https://ohmyposh.dev/docs/installation/windows
 So the steps will be:
+
 1. Install Windows Terminal from Windows Store
 2. Install Powershell from Github
 3. Install Modules
@@ -17,7 +15,7 @@ So the steps will be:
 5. Copy content to the file, save.
 6. Enjoy!
 
-And the powershell profile is changed as well:
+The content in Microsoft.PowerShell_profile.ps1:
 
 ```
 # posh-git
